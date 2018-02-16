@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[GPS data]]></name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Snippet><![CDATA[created using <A href="http://www.gpsvisualizer.com/?ref=ge&time=20180216134825">GPS Visualizer</A>]]></Snippet>
+    <Style id="gv_waypoint_normal">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="gv_waypoint_highlight">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="gv_waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#gv_waypoint_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#gv_waypoint_highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>5433 Quebec Street, Commerce City, CO, 80022</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-104.903523,39.796108</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1755 South Broadway, Denver, CO, 80210</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-104.987592,39.68484</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2630 West Pueblo Boulevard Suite A, Pueblo, CO, 81004</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-104.6409509,38.2181081</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>72 Suttle St. Unit F, Durango, CO, 81301</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-107.875267,37.246604</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4620 Peoria St., Denver, CO, 80239</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-104.8459408,39.7802847</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19005 East Quincy Avenue, Aurora, CO, 80015</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-104.766789,39.638513</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>330 N Federal Blvd, Denver, CO, 80219</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-105.025035,39.710583</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3901 E. 112TH AVE, THORNTON, CO, 80233</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-104.941104,39.899372</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1451 Cortez St unit A, Denver, CO, 80221</name>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-105.004418,39.831206</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
